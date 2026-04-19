@@ -20,5 +20,4 @@ echo '<h1>Secure Server Running via Nginx</h1>' | sudo tee /var/www/secure-app/i
 sudo chown -R www-data:www-data /var/www/secure-app
 sudo systemctl start nginx
 sudo systemctl enable nginx
-Screenshots:
-https://raw.githubusercontent.com/Naeem3295/My-devops-course/main/screenshots/Nginx%2520Version.png
+
