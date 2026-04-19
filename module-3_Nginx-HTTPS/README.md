@@ -21,7 +21,4 @@ sudo chown -R www-data:www-data /var/www/secure-app
 sudo systemctl start nginx
 sudo systemctl enable nginx
 
-### Screenshots:
 
-**Nginx Version and Status:**
-![Nginx Version and Status](https://raw.githubusercontent.com/Naeem3295/My-devops-course/main/module-3_Nginx-HTTPS/Nginx%20Version.png)
