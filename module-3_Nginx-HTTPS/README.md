@@ -1,18 +1,8 @@
-# Module 3: Nginx Web Server with HTTPS, SSL & Reverse Proxy
+#Module 3: Nginx Web Server with HTTPS, SSL & Reverse Proxy
 
 ## 📌 Assignment Completed on AWS EC2
 
-### Server Details:
-| Detail | Value |
-|--------|-------|
-| **Public IP** | 16.171.195.185 |
-| **OS** | Ubuntu 24.04 |
-| **Instance Type** | t3.micro |
-| **Security Group Ports** | SSH (22), HTTP (80), HTTPS (443) |
-
----
-
-## 🔷 Part 1: Basic Setup 
+## 🔷 Part 1: Basic Setup  ✅
 
 ### Commands Used:
 ```bash
@@ -39,11 +29,9 @@ bash
 nginx -v
 sudo systemctl status nginx
 cat /var/www/secure-app/index.html
-📸 Screenshots:
-Screenshot	Proof
-Nginx Version & Status	https://raw.githubusercontent.com/Naeem3295/My-devops-course/main/module-3_Nginx-HTTPs/screenshots/Nginx%2520Version.png
-HTML File Content	https://raw.githubusercontent.com/Naeem3295/My-devops-course/main/module-3_Nginx-HTTPs/screenshots/HTML%2520File.png
-🔷 Part 2: SSL Certificate 
+
+
+🔷 Part 2: SSL Certificate  ✅
 Commands Used:
 bash
 # Create SSL directory
@@ -53,14 +41,13 @@ sudo mkdir -p /etc/nginx/ssl
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
   -keyout /etc/nginx/ssl/server.key \
   -out /etc/nginx/ssl/server.crt \
-  -subj "/C=BD/ST=Dhaka/L=Dhaka/O=Student/CN=ec2-16-171-195-185.eu-north-1.compute.amazonaws.com"
+  -subj "/C=BD/ST=Dhaka/L=Dhaka/O=Student/CN=16.170.218.149"
 Verification Commands:
 bash
 ls -la /etc/nginx/ssl/
-📸 Screenshot:
-Screenshot	Proof
-SSL Files (server.crt & server.key)	https://raw.githubusercontent.com/Naeem3295/My-devops-course/main/module-3_Nginx-HTTPs/screenshots/ssl-certificate.png
-🔷 Part 3: Nginx Configuration 
+
+
+🔷 Part 3: Nginx Configuration  ✅
 Commands Used:
 bash
 # Remove default config
@@ -105,12 +92,8 @@ server {
         try_files $uri $uri/ =404;
     }
 }
-📸 Screenshots:
-Screenshot	Proof
-Nginx Config File	https://screenshots/nginx-config.png
-Nginx Test	https://screenshots/nginx-test.png
 
-🔷 Part 4: Reverse Proxy 
+🔷 Part 4: Reverse Proxy  ✅
 Commands Used:
 bash
 # Update config with proxy
@@ -175,12 +158,9 @@ server {
         try_files $uri $uri/ =404;
     }
 }
-📸 Screenshots:
-Screenshot	Proof
-Backend Running	https://screenshots/backend-running.png
-Final Nginx Config	https://screenshots/nginx-config-final.png
 
-🔷 Part 5: Testing 
+
+🔷 Part 5: Testing  ✅
 Test Commands:
 bash
 # Test Nginx configuration
@@ -193,14 +173,14 @@ sudo systemctl reload nginx
 ps aux | grep node
 Live URLs:
 Service	URL
-Website (HTTPS)	https://16.171.195.185
-Backend API	https://16.171.195.185/api
+Website (HTTPS)	https://16.170.218.149
+Backend API	https://16.170.218.149/api
 Test Results:
-Test	Expected Result	Status	Screenshot
-HTTP → HTTPS Redirect	Browser auto-redirects HTTP to HTTPS	✅ Pass	https://screenshots/redirect-working.png
-HTTPS Working	"Secure Server Running via Nginx" displayed	✅ Pass	https://screenshots/https-working.png
-Backend via Proxy	"Backend Response" with Host and X-Real-IP	✅ Pass	https://screenshots/backend-proxy.png
-nginx -t	"syntax is ok" and "test is successful"	✅ Pass	https://screenshots/nginx-test-final.png
+Test	Expected Result	Status
+HTTP → HTTPS Redirect	Browser auto-redirects HTTP to HTTPS	✅ Pass
+HTTPS Working	"Secure Server Running via Nginx" displayed	✅ Pass
+Backend via Proxy	"Backend Response" with Host and X-Real-IP	✅ Pass
+nginx -t	"syntax is ok" and "test is successful"	✅ Pass
 ⚠️ Note on Self-Signed Certificate:
 Browser shows "Not Secure" warning — this is expected because we are using a self-signed certificate
 
@@ -208,22 +188,3 @@ Click "Advanced → Proceed to site" to view the page
 
 This confirms HTTPS encryption is working, just not trusted by browsers
 
-📦 Submission Information
-Field	Value
-Topic	Nginx Web Server with HTTPS, SSL & Reverse Proxy
-Date	April 19, 2026
-Platform	AWS EC2 (Ubuntu 24.04)
-GitHub Repository	https://github.com/Naeem3295/My-devops-course
-✅ Final Checklist
-Requirement	Status
-Nginx & OpenSSL installed	✅
-/var/www/secure-app with HTML file	✅
-Self-signed SSL certificate generated	✅
-SSL files stored in /etc/nginx/ssl/	✅
-HTTP (80) → HTTPS (443) redirect	✅
-HTTPS (443) serving with SSL	✅
-Root and index correctly set	✅
-Backend running on port 3000	✅
-Reverse proxy configured (/api → port 3000)	✅
-Host and X-Real-IP headers passed	✅
-All tests passed
