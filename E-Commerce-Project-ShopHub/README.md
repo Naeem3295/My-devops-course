@@ -94,17 +94,3 @@ sudo systemctl restart apache2
 Role	URL	Email	Password
 Customer	http://16.170.225.209:8000	Register new	Set your own
 Admin	http://16.170.225.209:8000/admin	admin@example.com	admin
-https://github.com/user-attachments/assets/1efb6754-332f-4b
-https://github.com/user-attachments/assets/07c69a19-302e-40fe-b29f-5930260aefdf" />
-https://github.com/user-attachments/assets/2cec0b04-dab4-4762-a200-cca42348a7cc" />
-81-9a2c-418096eab7ab" />
-## 📸 Screenshots
-
-### 🏠 Homepage
-![Homepage](https://github.com/user-attachments/assets/5d26a901-7fef-4efc-abfe-1925979593ab)
-
-### 🛍️ Products Page
-![Products Page](https://github.com/user-attachments/assets/859b98b2-0ef0-4a86-9662-a238ea6c505d)
-
-### 👑 Admin Dashboard
-![Admin Dashboard](https://github.com/user-attachments/assets/0eb3232e-31a6-45cc-a705-fce4bc3e2617)
