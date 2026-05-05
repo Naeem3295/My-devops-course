@@ -21,8 +21,6 @@ Configured Route Tables:
 Public RT: 0.0.0.0/0 → IGW
 
 Private RT: 0.0.0.0/0 → NAT
-<img width="1156" height="695" alt="https-working" src="https://github.com/user-attachments/assets/d8e19ac3-1ec7-43cf-b51a-adfe7ca415a0" />
-
 
 2️⃣ Security Groups Created
 Security Group	Inbound Rules	Purpose
@@ -59,6 +57,7 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
     }
 }
+
 
 5️⃣ Application Tier (Node.js Backend)
 bash
@@ -163,4 +162,20 @@ Successfully deployed a fully functional 3-Tier Application on AWS EC2 with:
 ✅ Node.js backend with MySQL integration
 
 ✅ All layers communicating properly
+<img width="1357" height="421" alt="health" src="https://github.com/user-attachments/assets/89c6ca7e-7dcb-456b-bd69-cf622b7a05ea" />
+<img width="1366" height="644" alt="EC2 Instances" src="https://github.com/user-attachments/assets/83b9a241-18cd-4c52-a9ba-64c286fa2b8f" />
+<img width="1366" height="641" alt="DB-Layer-SG" src="https://github.com/user-attachments/assets/84e8ef3c-c3fd-41df-bb7c-b57e7809e1fd" />
+<img width="1354" height="649" alt="Database Tier Details" src="https://github.com/user-attachments/assets/dc5eec1e-9f66-41dd-9d59-f550c65e7053" />
+<img width="1361" height="636" alt="Application Tier Details" src="https://github.com/user-attachments/assets/3ef013dc-198e-49f1-b42b-d6b22a7f557b" />
+<img width="1365" height="466" alt="api_users" src="https://github.com/user-attachments/assets/a08c638a-ff3a-4ece-8575-a50a8f54e9ec" />
+<img width="1360" height="496" alt="api_test" src="https://github.com/user-attachments/assets/427c020f-d6db-4ab0-83cc-0ba6e991c9b3" />
+<img width="1366" height="651" alt="Web-Layer-SG" src="https://github.com/user-attachments/assets/01a82bae-3f6c-495f-abf5-e23654a611eb" />
+<img width="1337" height="587" alt="Web server" src="https://github.com/user-attachments/assets/eebf59e2-780e-426d-96e2-ac9f3d29ffa5" />
+<img width="1366" height="639" alt="VPC" src="https://github.com/user-attachments/assets/13b6cf51-d9b4-4c4e-9be0-e9a408020f53" />
+<img width="1357" height="629" alt="Subnets" src="https://github.com/user-attachments/assets/c8614e4b-2634-4425-bd30-65aacf686910" />
+<img width="1340" height="411" alt="setup" src="https://github.com/user-attachments/assets/d727e79d-d20a-416b-9a69-1c0b0173c8a8" />
+<img width="1354" height="620" alt="Route Tables" src="https://github.com/user-attachments/assets/f79f317e-650f-43da-9b5d-1969d2cd9d05" />
+<img width="1358" height="651" alt="Presentation Tier Details" src="https://github.com/user-attachments/assets/65d0930a-bfef-4f8b-8111-7664ce4d4644" />
+<img width="1354" height="628" alt="NAT Gateway" src="https://github.com/user-attachments/assets/d16db230-94ba-4f4b-ab63-b9bfa048f221" />
+<img width="1364" height="650" alt="Internet Gateway" src="https://github.com/user-attachments/assets/9b94ae4b-58ad-4786-8fd4-7adb5784d2f4" />
 
