@@ -162,20 +162,24 @@ Successfully deployed a fully functional 3-Tier Application on AWS EC2 with:
 ✅ Node.js backend with MySQL integration
 
 ✅ All layers communicating properly
-<img width="1357" height="421" alt="health" src="https://github.com/user-attachments/assets/89c6ca7e-7dcb-456b-bd69-cf622b7a05ea" />
-<img width="1366" height="644" alt="EC2 Instances" src="https://github.com/user-attachments/assets/83b9a241-18cd-4c52-a9ba-64c286fa2b8f" />
-<img width="1366" height="641" alt="DB-Layer-SG" src="https://github.com/user-attachments/assets/84e8ef3c-c3fd-41df-bb7c-b57e7809e1fd" />
-<img width="1354" height="649" alt="Database Tier Details" src="https://github.com/user-attachments/assets/dc5eec1e-9f66-41dd-9d59-f550c65e7053" />
-<img width="1361" height="636" alt="Application Tier Details" src="https://github.com/user-attachments/assets/3ef013dc-198e-49f1-b42b-d6b22a7f557b" />
-<img width="1365" height="466" alt="api_users" src="https://github.com/user-attachments/assets/a08c638a-ff3a-4ece-8575-a50a8f54e9ec" />
-<img width="1360" height="496" alt="api_test" src="https://github.com/user-attachments/assets/427c020f-d6db-4ab0-83cc-0ba6e991c9b3" />
-<img width="1366" height="651" alt="Web-Layer-SG" src="https://github.com/user-attachments/assets/01a82bae-3f6c-495f-abf5-e23654a611eb" />
-<img width="1337" height="587" alt="Web server" src="https://github.com/user-attachments/assets/eebf59e2-780e-426d-96e2-ac9f3d29ffa5" />
-<img width="1366" height="639" alt="VPC" src="https://github.com/user-attachments/assets/13b6cf51-d9b4-4c4e-9be0-e9a408020f53" />
-<img width="1357" height="629" alt="Subnets" src="https://github.com/user-attachments/assets/c8614e4b-2634-4425-bd30-65aacf686910" />
-<img width="1340" height="411" alt="setup" src="https://github.com/user-attachments/assets/d727e79d-d20a-416b-9a69-1c0b0173c8a8" />
-<img width="1354" height="620" alt="Route Tables" src="https://github.com/user-attachments/assets/f79f317e-650f-43da-9b5d-1969d2cd9d05" />
-<img width="1358" height="651" alt="Presentation Tier Details" src="https://github.com/user-attachments/assets/65d0930a-bfef-4f8b-8111-7664ce4d4644" />
-<img width="1354" height="628" alt="NAT Gateway" src="https://github.com/user-attachments/assets/d16db230-94ba-4f4b-ab63-b9bfa048f221" />
-<img width="1364" height="650" alt="Internet Gateway" src="https://github.com/user-attachments/assets/9b94ae4b-58ad-4786-8fd4-7adb5784d2f4" />
+<img width="1366" height="639" alt="VPC" src="https://github.com/user-attachments/assets/a26f2d2a-a77c-4713-9f21-902e843c3b59" />
+<img width="1357" height="629" alt="Subnets" src="https://github.com/user-attachments/assets/4eef022f-5553-4420-bc94-7d884a214746" />
+<img width="1364" height="650" alt="Internet Gateway" src="https://github.com/user-attachments/assets/dc0d79c2-66d3-441b-9fe7-5865aa466237" />
+<img width="1354" height="628" alt="NAT Gateway" src="https://github.com/user-attachments/assets/7b8ee13a-d293-41eb-ab3f-5692d91014c0" />
+<img width="1354" height="620" alt="Route Tables" src="https://github.com/user-attachments/assets/70d521cb-c01a-4339-9b33-629625443489" />
+<img width="1366" height="651" alt="Web-Layer-SG" src="https://github.com/user-attachments/assets/ec90a1f0-def0-4304-8f9e-33afa3d7be34" />
+<img width="1366" height="641" alt="DB-Layer-SG" src="https://github.com/user-attachments/assets/2c514d44-c64c-4721-b202-409178f925a6" />
+<img width="1337" height="587" alt="Web server" src="https://github.com/user-attachments/assets/c10282eb-225c-4462-980b-de369a837c17" />
+<img width="1358" height="651" alt="Presentation Tier Details" src="https://github.com/user-attachments/assets/e5890f04-4624-410a-b3c8-560326126e6c" />
+<img width="1366" height="644" alt="EC2 Instances" src="https://github.com/user-attachments/assets/35915629-1669-4699-869b-f728da20bdae" />
+<img width="1358" height="651" alt="Presentation Tier Details" src="https://github.com/user-attachments/assets/dfe6528e-a886-4103-a0bd-041d28c03de6" />
+
+<img width="1361" height="636" alt="Application Tier Details" src="https://github.com/user-attachments/assets/0b3580d7-b6ad-41f3-b231-e26cdb682f64" />
+<img width="1357" height="421" alt="health" src="https://github.com/user-attachments/assets/ff9928bd-4a67-4ae6-8c9b-ae4cefe76cc2" />
+<img width="1354" height="649" alt="Database Tier Details" src="https://github.com/user-attachments/assets/90b2dbea-9ce8-4a03-9256-a7047aad7e6c" />
+<img width="1365" height="466" alt="api_users" src="https://github.com/user-attachments/assets/46d5e58a-4c3c-4a04-9c9f-94f4add6aab0" />
+<img width="1357" height="421" alt="health" src="https://github.com/user-attachments/assets/c9d0346a-9f65-4928-b480-467cdad63903" />
+<img width="1365" height="466" alt="api_users" src="https://github.com/user-attachments/assets/16499db1-6144-478b-b96d-8e2d0e5df502" />
+
+<img width="1360" height="496" alt="api_test" src="https://github.com/user-attachments/assets/57a773f5-722f-4323-9bc2-ab20f1a4fb3a" />
 
