@@ -171,12 +171,13 @@ Successfully deployed a fully functional 3-Tier Application on AWS EC2 with:
 <img width="1354" height="620" alt="Route Tables" src="https://github.com/user-attachments/assets/70d521cb-c01a-4339-9b33-629625443489" />
 <img width="1366" height="651" alt="Web-Layer-SG" src="https://github.com/user-attachments/assets/ec90a1f0-def0-4304-8f9e-33afa3d7be34" />
 <img width="1366" height="641" alt="DB-Layer-SG" src="https://github.com/user-attachments/assets/2c514d44-c64c-4721-b202-409178f925a6" />
-<img width="1337" height="587" alt="Web server" src="https://github.com/user-attachments/assets/c10282eb-225c-4462-980b-de369a837c17" />
+
 <img width="1366" height="644" alt="EC2 Instances" src="https://github.com/user-attachments/assets/35915629-1669-4699-869b-f728da20bdae" />
 <img width="1358" height="651" alt="Presentation Tier Details" src="https://github.com/user-attachments/assets/dfe6528e-a886-4103-a0bd-041d28c03de6" />
 
 <img width="1361" height="636" alt="Application Tier Details" src="https://github.com/user-attachments/assets/0b3580d7-b6ad-41f3-b231-e26cdb682f64" />
 <img width="1354" height="649" alt="Database Tier Details" src="https://github.com/user-attachments/assets/90b2dbea-9ce8-4a03-9256-a7047aad7e6c" />
+<img width="1337" height="587" alt="Web server" src="https://github.com/user-attachments/assets/c10282eb-225c-4462-980b-de369a837c17" />
 <img width="1357" height="421" alt="health" src="https://github.com/user-attachments/assets/c9d0346a-9f65-4928-b480-467cdad63903" />
 <img width="1365" height="466" alt="api_users" src="https://github.com/user-attachments/assets/16499db1-6144-478b-b96d-8e2d0e5df502" />
 
