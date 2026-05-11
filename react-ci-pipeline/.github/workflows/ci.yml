@@ -6,20 +6,20 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted   # ← সবচেয়ে গুরুত্বপূর্ণ লাইন (আপনার EC2 তে রান করবে)
-    
+    runs-on: self-hosted   # ← এটা সবচেয়ে গুরুত্বপূর্ণ!
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      
+
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '24.x'
+        node-version: '20.x'
         cache: 'npm'
-        
+
     - name: Install dependencies
       run: npm ci
-      
+
     - name: Build the app
       run: npm run build
