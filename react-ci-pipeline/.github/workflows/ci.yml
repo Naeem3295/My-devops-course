@@ -12,20 +12,17 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Navigate to project folder
-      run: cd react-ci-pipeline
+    - name: List all files
+      run: ls -la
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20.x'
+    - name: Check current directory
+      run: pwd
 
-    - name: Install dependencies
-      run: |
-        cd react-ci-pipeline
-        npm install
+    - name: Create a test file
+      run: echo "Hello from CI Pipeline" > test.txt
 
-    - name: Build the app
-      run: |
-        cd react-ci-pipeline
-        echo "Build completed successfully!"
+    - name: Show test file content
+      run: cat test.txt
+
+    - name: Pipeline Success
+      run: echo "✅ CI Pipeline completed successfully!"
