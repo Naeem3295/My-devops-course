@@ -12,17 +12,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: List all files
+    - name: List files
       run: ls -la
 
-    - name: Check current directory
+    - name: Show current path
       run: pwd
 
-    - name: Create a test file
-      run: echo "Hello from CI Pipeline" > test.txt
-
-    - name: Show test file content
-      run: cat test.txt
-
-    - name: Pipeline Success
-      run: echo "✅ CI Pipeline completed successfully!"
+    - name: Simple success message
+      run: echo "Pipeline executed successfully on self-hosted runner"
