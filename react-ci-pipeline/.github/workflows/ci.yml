@@ -12,11 +12,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: List files
-      run: ls -la
+    - name: Create a test file
+      run: |
+        echo "Hello from Self-Hosted Runner" > test.txt
+        cat test.txt
 
-    - name: Show current path
-      run: pwd
-
-    - name: Simple success message
+    - name: Show success message
       run: echo "Pipeline executed successfully on self-hosted runner"
