@@ -31,7 +31,8 @@ sudo apt upgrade -y
 📸 Screenshot 1: EC2 Instance Running
 
 📸 Screenshot 2: Successful SSH Connection
-<img width="870" height="245" alt="mydb" src="https://github.com/user-attachments/assets/25d1a1c2-f829-406e-baa3-3e0acd8ff218" />
+<img width="774" height="598" alt="SSH" src="https://github.com/user-attachments/assets/76922907-017a-495f-8aad-64c322abed6f" />
+
 
 
 2️⃣ MySQL Installation & Configuration
@@ -57,6 +58,8 @@ performance_schema
 sys
 
 📸 Screenshot 3: MySQL Database Verification
+<img width="870" height="245" alt="mydb" src="https://github.com/user-attachments/assets/94adcc5c-100c-4d04-a45f-ed92a572170b" />
+
 
 3️⃣ Node.js Backend Deployment
 Install Node.js
@@ -87,6 +90,9 @@ Response:
 }
 
 📸 Screenshot 4: Backend Health Endpoint
+<img width="1350" height="677" alt="Node Exporter Metrics" src="https://github.com/user-attachments/assets/02aa8bb2-6473-4843-b9bd-0a155225b539" />
+<img width="1346" height="593" alt="Node js App" src="https://github.com/user-attachments/assets/7ee1553e-c823-4020-b301-9046b5d84e6d" />
+
 
 5️⃣ Node Exporter Installation
 Download
@@ -101,6 +107,7 @@ Verify Metrics
 curl http://localhost:9100/metrics
 
 📸 Screenshot 5: Node Exporter Metrics
+<img width="1350" height="677" alt="Node Exporter Metrics" src="https://github.com/user-attachments/assets/ddc486ca-6c41-474f-8a1e-5a4ab30a4ed4" />
 
 6️⃣ Prometheus Installation
 Download Prometheus
@@ -135,6 +142,8 @@ Verify
 curl http://localhost:9090/-/healthy
 
 📸 Screenshot 6: Prometheus Targets Page
+<img width="1360" height="642" alt="Prometheus Targets" src="https://github.com/user-attachments/assets/839885c3-6e8e-4c21-975c-79282ff8417e" />
+
 
 7️⃣ Grafana Installation
 Download Grafana
@@ -173,6 +182,11 @@ Filesystem Usage
 Uptime
 
 📸 Screenshot 7: Grafana Dashboard
+<img width="1358" height="678" alt="Grafana 1" src="https://github.com/user-attachments/assets/a4b331e1-5b55-4288-989f-61f91819ae31" />
+<img width="1354" height="678" alt="Grafana 2" src="https://github.com/user-attachments/assets/92509fe4-7e63-4ab2-9b8e-f430f7206576" />
+<img width="1356" height="671" alt="Grafana 3" src="https://github.com/user-attachments/assets/8a464acb-3467-48b3-beac-a49ba2503a93" />
+
+
 
 8️⃣ GitHub Actions CI/CD
 
@@ -216,6 +230,9 @@ EC2_HOST	EC2 Public IP
 SSH_KEY	Private Key Content
 
 📸 Screenshot 8: GitHub Secrets
+<img width="1363" height="677" alt="Actions secrets" src="https://github.com/user-attachments/assets/fec69424-c0fa-4ac1-aa85-d2a4c087d161" />
+
+
 
 🔟 Deployment Verification
 
@@ -233,6 +250,8 @@ Installs dependencies
 Restarts application
 
 📸 Screenshot 9: Successful GitHub Actions Workflow
+<img width="1353" height="524" alt="Github Actions" src="https://github.com/user-attachments/assets/dff0bc41-8dd6-4bb4-ad2c-b6ab0542060f" />
+
 
 📊 Monitoring Results
 
