@@ -90,8 +90,7 @@ Response:
 }
 
 📸 Screenshot 4: Backend Health Endpoint
-<img width="1350" height="677" alt="Node Exporter Metrics" src="https://github.com/user-attachments/assets/02aa8bb2-6473-4843-b9bd-0a155225b539" />
-<img width="1346" height="593" alt="Node js App" src="https://github.com/user-attachments/assets/7ee1553e-c823-4020-b301-9046b5d84e6d" />
+<img width="1346" height="593" alt="Node js App" src="https://github.com/user-attachments/assets/89af25f1-2e62-4171-89b1-ce340e046d70" />
 
 
 5️⃣ Node Exporter Installation
