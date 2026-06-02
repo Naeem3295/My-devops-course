@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛍️ ShopHub - E-Commerce Platform
 
 [![AWS](https://img.shields.io/badge/AWS-EC2-orange)](https://aws.amazon.com/ec2/)
@@ -94,3 +95,6 @@ sudo systemctl restart apache2
 Role	URL	Email	Password
 Customer	http://16.170.225.209:8000	Register new	Set your own
 Admin	http://16.170.225.209:8000/admin	admin@example.com	admin
+=======
+﻿# E-Commerce Project ShopHub
+>>>>>>> e206dd21d5acecf5214bfd771342963ddb0dda24

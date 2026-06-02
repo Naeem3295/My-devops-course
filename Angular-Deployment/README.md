@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Angular Deployment - Academica Frontend
 
 This folder contains the **academica_frontend** Angular project that was deployed on AWS EC2 with Nginx.
@@ -72,3 +73,6 @@ Service	URL
 HTTPS Website	https://16.170.218.149
 Backend API	https://16.170.218.149/api
 ⚠️ Self-signed certificate used — browser shows "Not Secure" warning. This is expected.
+=======
+﻿# Angular Deployment
+>>>>>>> e206dd21d5acecf5214bfd771342963ddb0dda24

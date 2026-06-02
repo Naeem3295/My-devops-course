@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Module 3: Nginx Web Server with HTTPS, SSL & Reverse Proxy
 
 ## 📌 Assignment Completed on AWS EC2
@@ -188,3 +189,6 @@ Click "Advanced → Proceed to site" to view the page
 
 This confirms HTTPS encryption is working, just not trusted by browsers
 
+=======
+﻿# Module 3: Nginx HTTPS
+>>>>>>> e206dd21d5acecf5214bfd771342963ddb0dda24
