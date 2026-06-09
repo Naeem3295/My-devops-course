@@ -1,4 +1,4 @@
-arkdown
+
 # 🚀 Module 8: Complete DevOps Monitoring & Deployment Solution
 
 ## 📋 Project Overview
