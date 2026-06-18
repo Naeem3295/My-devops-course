@@ -323,23 +323,7 @@ NETWORK ID     NAME             DRIVER    SCOPE
 15b4c7751b06   my-app-network   bridge    local
 05999cdd0466   none             null      local
 
-<img width="847" height="479" alt="Dcoker hello " src="https://github.com/user-attachments/assets/9ccee758-cc75-46e0-ad01-ac7444ac5c06" />
-
-<img width="880" height="573" alt="docker network" src="https://github.com/user-attachments/assets/0b92011f-b8ab-4c62-ac1c-9a30bd2c0aa5" />
-
-
-<img width="840" height="387" alt="host-network" src="https://github.com/user-attachments/assets/a265ff6b-eb8c-4ca6-a8fb-f0d033cfdc92" />
-
-<img width="843" height="213" alt="None Network" src="https://github.com/user-attachments/assets/66754a10-71e9-4385-bf5f-86f03dccbca3" />
-
-
-
-<img width="843" height="235" alt="Custom Bridge Network" src="https://github.com/user-attachments/assets/c4b2f747-51e4-460c-beaf-c51decb5290d" />
-
-<img width="836" height="157" alt="docker network 2" src="https://github.com/user-attachments/assets/55fb44cb-d1cf-43fa-ba2a-d58028918613" />
-
-
-
+screenshort: All screenshots are available in the screenshots folder.
 
 
 
